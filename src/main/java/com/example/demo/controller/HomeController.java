@@ -11,4 +11,9 @@ public class HomeController {
 	public String index() {
 		return "welcome";
 	}
+	//end point for login api 
+	@GetMapping("/")
+	public String loginUser() {
+		return "login.html";
+	}
 }
